@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- beans는 거의 대부분의 스프링 프레임워크 에서 동일하게 쓰임 -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+ 		http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean 속성
+		id = 사용자가 설정
+		class = "패키지명.클래스명"
+		
+		new로 새로 생성할 필요 없음
+		자동으로 메모리에 로드된다.
+		스프링에서 메모리에 로드된 것을 스프링 컨테이너 라고 한다.
+		 -->
+	<bean id="tWalk" class="testPjt.TransportationWalk"/>
+	
+</beans>
